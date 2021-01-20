@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calories</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="/main.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <form class="form">
+      <div class="content">
+        <input type="number" class="content__input" id="weight">
+        <p class="content__text">Ваш вес</p>
+      </div>
+      <div class="content">
+        <input type="number" class="content__input" id="age">
+        <p class="content__text">Ваш возраст</p>
+      </div>
+      <input type="submit" class="btn" id="submit" value="отправить">
+    </form>
+    <section class="form">
+      <div class="content">
+        <input type="number" class="content__input" id="SYS" value="109">
+        <p class="content__text">SYS</p>
+      </div>
+      <div class="content">
+        <input type="number" class="content__input" id="DIA" value="59">
+        <p class="content__text">DIA</p>
+      </div>
+      <div class="content">
+        <input type="number" class="content__input" id="HR" value="56">
+        <p class="content__text">HR</p>
+      </div>
+      <input class="btn" id="submit2" value="отправить" type="submit">
+    </section>
+    <div class="modal" id="modal">
+      <div class="modal__container">
+        <div class="modal__content">
+          <div class="modal__block simple" id="simpleBlock">
+            <div class="modal__text">Ваш базовый обмен</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="/index.js"></script>
+</body>
+
+</html>

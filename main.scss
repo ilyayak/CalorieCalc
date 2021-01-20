@@ -1,0 +1,35 @@
+.btn{
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 7%;
+
+}
+.wrapper{
+  margin: auto;
+  margin-top: 12%;
+  width: 530px;
+  padding: auto;
+}
+.form{  
+  margin-top: 40px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.content__input{
+  width: 180px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.modal{
+  display: none;
+}
+.modal__container{
+display: flex;
+align-items: center;
+justify-content:center;
+}
